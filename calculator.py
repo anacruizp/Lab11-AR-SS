@@ -1,3 +1,6 @@
+#https://github.com/anacruizp/Lab11-AR-SS.git
+#Partner 1: Ana Ruiz
+#Partner 2: Sandra
 """
 calculator.py
 - Defines functions used to create a simple calculator
