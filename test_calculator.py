@@ -1,4 +1,6 @@
-#
+#https://github.com/anacruizp/Lab11-AR-SS.git
+#Partner 1: Ana Ruiz
+#Partner 2: Sandra
 import unittest
 from calculator import *
 
