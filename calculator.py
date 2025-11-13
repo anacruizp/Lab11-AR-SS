@@ -21,7 +21,7 @@ def div(a,b):
 def logarithm(a,b):
      if a <= 0 or b <= 0 or b == 1:
          raise ValueError("invalid input")
-     return math.log(b,a)
+     return math.log(a,b)
 def exp(a,b):
     return a**b
 def square_root(a):
