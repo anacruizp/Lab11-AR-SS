@@ -8,7 +8,7 @@ class TestCalculator(unittest.TestCase):
     ######### Partner 2
     def test_add(self):
         self.assertEqual(add(2,3),5)
-        self.assertEqual(add(-2,3), -5)
+        self.assertEqual(add(-2,3), 1)
         self.assertEqual(add(0,5), 5)
 
     def test_subtract(self): # 3 assertions
@@ -43,11 +43,11 @@ class TestCalculator(unittest.TestCase):
     def test_log_invalid_argument(self): # 1 assertion
     #     # call log function inside, example:
         with self.assertRaises(ValueError):
-            log(0, 5)
+            logarithm(0, 5)
         with self.assertRaises(ValueError):
-            log(1,10)
+            logarithm(1,10)
         with self.assertRaises(ValueError):
-            log(2,-8)
+            logarithm(2,-8)
 
     def test_hypotenuse(self): # 3 assertions
         self.assertAlmostEqual(hypotenuse(3,4), 5.0)
